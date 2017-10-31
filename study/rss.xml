@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">博客园_mrbean</title>
+    <subtitle type="text">当你的才华撑不起你的野心时，只有静下心来好好学习！</subtitle>
+    <id>uuid:e263345d-08e5-4dc7-831e-3086e66a8832;id=8012</id>
+    <updated>2017-05-11T17:22:38Z</updated>
+    <author>
+        <name>mrbean</name>
+        <uri>http://www.cnblogs.com/MrLJC/</uri>
+    </author>
+    <generator>feed.cnblogs.com</generator>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/6343856.html</id>
+        <title type="text">python 2解决编码问题 - mrbean</title>
+        <summary type="text">另：python 3的open函数可以直接加encoding参数</summary>
+        <published>2017-01-23T05:09:00Z</published>
+        <updated>2017-01-23T05:09:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/6343856.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/6343856.html"/>
+        <content type="html">【摘要】另：python 3的open函数可以直接加encoding参数 &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/6343856.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/6081968.html</id>
+        <title type="text">【python坑记录】 - mrbean</title>
+        <summary type="text">python的sort函数使用的时候有一个参数 。一定注意这里返回值要用1和 1。不能True和False！！！</summary>
+        <published>2016-11-19T16:41:00Z</published>
+        <updated>2016-11-19T16:41:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/6081968.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/6081968.html"/>
+        <content type="html">【摘要】python的sort函数使用的时候有一个参数 。一定注意这里返回值要用1和 1。不能True和False！！！ &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/6081968.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4823499.html</id>
+        <title type="text">给numpy矩阵添加一列 - mrbean</title>
+        <summary type="text">问题的定义：首先我们有一个数据是一个m n的numpy矩阵现在我们希望能够进行给他加上一列变成一个m (n+1)的矩阵 import numpy as np a =
+            np.array([[1,2,3],[4,5,6],[7,8,9]]) b = np.ones(3) c = np....
+        </summary>
+        <published>2015-09-20T07:07:00Z</published>
+        <updated>2015-09-20T07:07:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4823499.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4823499.html"/>
+        <content type="html">【摘要】问题的定义：首先我们有一个数据是一个m n的numpy矩阵现在我们希望能够进行给他加上一列变成一个m (n+1)的矩阵 import numpy as np a =
+            np.array([[1,2,3],[4,5,6],[7,8,9]]) b = np.ones(3) c = np.... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4823499.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4758317.html</id>
+        <title type="text">Remove Duplicates from Sorted Array II - mrbean</title>
+        <summary type="text">#题目简述Follow up for "Remove Duplicates":What if duplicates are allowed at most twice?For
+            example,Given sorted array nums = [1,1,1,2,2,3],Your function ...
+        </summary>
+        <published>2015-08-25T10:37:00Z</published>
+        <updated>2015-08-25T10:37:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4758317.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4758317.html"/>
+        <content type="html">【摘要】#题目简述Follow up for "Remove Duplicates":What if duplicates are allowed at most twice?For
+            example,Given sorted array nums = [1,1,1,2,2,3],Your function ... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4758317.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4535415.html</id>
+        <title type="text">scikit-learn算法选择图 - mrbean</title>
+        <summary type="text">
+            ![](http://images0.cnblogs.com/blog2015/561813/201505/281120453768566.png)图片来自sklearn官网最近事情弄完一部分了，继续开始python
+            data science！
+        </summary>
+        <published>2015-05-28T03:22:00Z</published>
+        <updated>2015-05-28T03:22:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4535415.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4535415.html"/>
+        <content type="html">
+            【摘要】![](http://images0.cnblogs.com/blog2015/561813/201505/281120453768566.png)图片来自sklearn官网最近事情弄完一部分了，继续开始python
+            data science！ &lt;a href="http://www.cnblogs.com/MrLJC/p/4535415.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4474118.html</id>
+        <title type="text">【leetcode】Isomorphic Strings - mrbean</title>
+        <summary type="text">#题目简述：Given two strings s and t, determine if they are isomorphic.Two strings are
+            isomorphic if the characters in s can be replaced to get t.All occur...
+        </summary>
+        <published>2015-05-03T07:55:00Z</published>
+        <updated>2015-05-03T07:55:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4474118.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4474118.html"/>
+        <content type="html">【摘要】#题目简述：Given two strings s and t, determine if they are isomorphic.Two strings are
+            isomorphic if the characters in s can be replaced to get t.All occur... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4474118.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4446816.html</id>
+        <title type="text">【leetcode】Happy Number - mrbean</title>
+        <summary type="text">#题目简述Write an algorithm to determine if a number is "happy".A happy number is a number
+            defined by the following process: Starting with any positive in...
+        </summary>
+        <published>2015-04-22T03:04:00Z</published>
+        <updated>2015-04-22T03:04:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4446816.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4446816.html"/>
+        <content type="html">【摘要】#题目简述Write an algorithm to determine if a number is "happy".A happy number is a number
+            defined by the following process: Starting with any positive in... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4446816.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4438407.html</id>
+        <title type="text">【leetcode】Valid Sudoku - mrbean</title>
+        <summary type="text">#题目简述：Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.The Sudoku
+            board could be partially filled, where empty cells are fille...
+        </summary>
+        <published>2015-04-18T15:43:00Z</published>
+        <updated>2015-04-18T15:43:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4438407.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4438407.html"/>
+        <content type="html">【摘要】#题目简述：Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.The
+            Sudoku board could be partially filled, where empty cells are fille... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4438407.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4437894.html</id>
+        <title type="text">【leetcode】Add Binary - mrbean</title>
+        <summary type="text">#题目简述：Given two binary strings, return their sum (also a binary string).For example,a =
+            "11"b = "1"Return "100".#解题思路： class Solution: # @pa...
+        </summary>
+        <published>2015-04-18T11:10:00Z</published>
+        <updated>2015-04-18T11:10:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4437894.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4437894.html"/>
+        <content type="html">【摘要】#题目简述：Given two binary strings, return their sum (also a binary string).For example,a =
+            "11"b = "1"Return "100".#解题思路： class Solution: # @pa... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4437894.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/MrLJC/p/4437833.html</id>
+        <title type="text">【leetcode】Remove Duplicates from Sorted List - mrbean</title>
+        <summary type="text">#题目简述Given a sorted linked list, delete all duplicates such that each element appear only
+            once.For example,Given 1-&gt;1-&gt;2, return 1-&gt;2.Given 1-&gt;1-&gt;2-&gt;3...
+        </summary>
+        <published>2015-04-18T10:31:00Z</published>
+        <updated>2015-04-18T10:31:00Z</updated>
+        <author>
+            <name>mrbean</name>
+            <uri>http://www.cnblogs.com/MrLJC/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/MrLJC/p/4437833.html"/>
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/MrLJC/p/4437833.html"/>
+        <content type="html">【摘要】#题目简述Given a sorted linked list, delete all duplicates such that each element appear
+            only once.For example,Given 1-&gt;1-&gt;2, return 1-&gt;2.Given 1-&gt;1-&gt;2-&gt;3... &lt;a
+            href="http://www.cnblogs.com/MrLJC/p/4437833.html" target="_blank"&gt;阅读全文&lt;/a&gt;
+        </content>
+    </entry>
+</feed>
