@@ -1,4 +1,4 @@
-## Example files for the title:  
+## Source codes and my study codes for Programming Collective Intelligence
 	  
 # Programming Collective Intelligence, by Toby Segaran
 	  
