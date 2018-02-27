@@ -91,18 +91,49 @@ def topMatches(prefs, person, n=5, similarity=sim_pearson):
     return scores[0:n]
 
 
-def nop():
-    pass
+# 开始推荐物品了。
+# 利用所有他人评价值的加权平均，为某人提供建议
+def getRecommendations(prefs, person, similarity=sim_pearson):
+    totals = {}
+    simSums = {}
+    for other in prefs:
+        # 不要和自己做比较
+        if other == person: continue
+        sim = similarity(prefs, person, other)
 
+        # 忽略评价值为零或小于零的情况
+        if sim <= 0: continue
+        for movie in prefs[other]:
 
+            # 只对自己还未曾看过的影片进行评价
+            if movie not in prefs[person] or prefs[person][movie] == 0:
+                # 相似度 * 评价值
+                totals.setdefault(movie, 0)
+                totals[movie] += prefs[other][movie] * sim
+                # 相似度之和
+                simSums.setdefault(movie, 0)
+                simSums[movie] += sim
+
+    # 建立一个归一化的列表
+    rankings = [(total / simSums[movie], movie) for movie, total in totals.items()]
+
+    # 返回排序过的列表
+    rankings.sort()
+    rankings.reverse()
+    return rankings
 
 
 if __name__ == '__main__':
-    print "欧几里得算法"
-    print sim_distance(critics, 'Lisa Rose', 'Gene Seymour')
-    print "皮尔逊算法"
-    print sim_pearson(critics, 'Lisa Rose', 'Gene Seymour')
+    print "欧几里得算法相似度"
+    print sim_distance(critics, 'Lisa Rose', 'Toby')
+    print "皮尔逊算法相似度"
+    print sim_pearson(critics, 'Lisa Rose', 'Toby')
     print("欧几里得算法的最佳匹配")
     print topMatches(critics, 'Toby', 3, sim_distance)
     print("皮尔逊算法的最佳匹配")
     print topMatches(critics, 'Toby', 3, sim_pearson)
+
+    print("皮尔逊算法为Toby推荐")
+    print getRecommendations(critics, 'Toby')
+    print("欧几里得算法为Toby推荐")
+    print getRecommendations(critics, 'Toby', similarity=sim_distance)
